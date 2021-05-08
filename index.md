@@ -1,4 +1,4 @@
-## Welcome to the okeyubah website
+## Welcome to the Okey's website, the new way to learn
 
 You can use the [editor on GitHub](https://github.com/okeyubah/okeyubah.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
