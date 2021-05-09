@@ -1,4 +1,4 @@
-### Welcome to Okey's blog, the only website that can teach your child Java from age 14
+### Welcome to Okey's blog, the only website that teaches your child Java from age 14
 
 To teach teenagers Java, we use the book, "A Peek into Java for Nigerian Teenagers" by Anthony Okechukw Ubah, who also happens to be the owner of this website. 
 
