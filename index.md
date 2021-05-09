@@ -1,4 +1,4 @@
-### Welcome to Okey's blog, your best chance to learn Java in secondary school
+### Welcome to Okey's blog, the website that teaches your child Java from age 14
 
 You can use the [editor on GitHub](https://github.com/okeyubah/okeyubah.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
