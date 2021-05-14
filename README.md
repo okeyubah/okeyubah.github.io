@@ -2,5 +2,5 @@
 - My website is focused on teaching teenagers Java.
 - To do this, I use **"A Peek into Java for Nigerian Teenagers"**
 - This book was written by me, and is approved for teaching Java in Lagos state senior secondary schools.
-- I am currently learning GraphQL, ReactJS, AngularJS, among others.
+- I am currently learning GraphQL and ReactJS.
 - In conjunction with interested collaborators, I would like to develop an app that teaches Java.
