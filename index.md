@@ -1,3 +1,7 @@
+---
+title: Testing
+date: DD-MM-YYYY
+---
 ### This website was set up to complement efforts that are geared towards convincing you to get your child to start learning Java from about age 14.
 
 To teach teenagers Java, we rely on a number of tools, including **"A Peek into Java for Nigerian Teenagers"** by Anthony Okechukw Ubah. This same author also happens to be the writer of the current blog. 
