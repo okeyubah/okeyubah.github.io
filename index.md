@@ -1,4 +1,7 @@
-
+---
+title: "My blog"
+date: YYYY-MM-DD
+---
 
 ### This website was set up to complement efforts that are geared towards convincing you to get your child to start learning Java from about age 14.
 
