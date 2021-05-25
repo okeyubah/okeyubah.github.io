@@ -1,3 +1,27 @@
 theme: jekyll-theme-cayman
 title: Welcome to Okey's homepage
 description: You've always wanted your teenagers to learn Java? You've come to the right place!
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"      
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"      
+    values:
+      layout: "default"      
