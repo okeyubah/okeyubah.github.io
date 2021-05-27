@@ -1,3 +1,3 @@
 ---
 ---
-<p>Husband's name: {{ site.data.samplelist.name.husband}}</p>
+<p>Husband's name: {{ site.data.samplelist.name.wife}}</p>
