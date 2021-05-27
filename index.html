@@ -11,7 +11,11 @@
     <p><b>Feedback</b></p>
     <p>{{ site.data.samplelist.feedback }}</p>
     <p><b>Block</b></p>
-    <p>{{ site.data.samplelist.block }}</p>    
+    <p>{{ site.data.samplelist.block }}</p>
+    <p><b>Bikes</b></p>
+    <ul>{% for item in site.data.samplelist.bikes %}
+    <li>{{ item.title }}</li>{% endfor %}
+    </ul>     
   </body>  
 </html>
   
