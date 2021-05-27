@@ -2,7 +2,7 @@ name:
   husband: Nnamdi Idika
   wife: Adaku
 feedback: >
-  This my feedback to you.
+  This is my feedback to you.
   Even if I include line breaks here,
   all of the line breaks will be removed when the value is inserted.
 block: |
@@ -11,3 +11,8 @@ block: |
   This is really helpful for code samples,
   since you can format the  code samples with
   the appropriate line breaks.
+bikes:
+  - title: mountain bikes
+  - title: road bikes
+  - title: hybrid bikes
+  
