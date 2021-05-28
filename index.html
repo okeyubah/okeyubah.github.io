@@ -23,7 +23,14 @@
     <li>{{entry.location}}</li>
     {% endfor %}
     </ul>
-    {% endfor %}      
+    {% endfor %}
+    {% for item in site.data.samplelist.toc %}
+    <h3>{{item.title}}</h3>
+    <ul>{% for entry in item.subdirobjs  %}
+      <li>{{entry.page}}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
   </body>  
 </html>
   
