@@ -46,10 +46,10 @@ about:
   - Three
 numbercolours:
   - zero:
-  properties: yellow
-    - one:
-  properties: red
-    - two:
-  properties: blue
-    - three:
-  properties: green
+    properties: yellow
+  - one:
+    properties: red
+  - two:
+    properties: blue
+  - three:
+    properties: green
