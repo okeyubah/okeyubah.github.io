@@ -37,3 +37,5 @@ toc:
       - page: Widget 1
       - page: Widget 2
       - page: Widget 3
+something: &hello Greetings earthling!
+myref: *hello
