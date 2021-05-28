@@ -15,7 +15,10 @@
     <p><b>Bikes</b></p>
     <ul>{% for item in site.data.samplelist.bikes %}
     <li>{{ item.title }}</li>{% endfor %}
-    </ul>     
+    </ul>
+    {% for item in site.data.samplelist.salesteams %}
+    <li>{{entry.title}}</li>
+    {% endfor %}
   </body>  
 </html>
   
