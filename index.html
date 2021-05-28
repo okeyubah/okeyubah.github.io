@@ -17,8 +17,13 @@
     <li>{{ item.title }}</li>{% endfor %}
     </ul>
     {% for item in site.data.samplelist.salesteams %}
-    <li>{{entry.title}}</li>
+    <h3>{{item.title}}</h3>
+    <ul>
+    {% for entry in item.subfolderitems %}
+    <li>{{entry.location}}</li>
     {% endfor %}
+    </ul>
+    {% endfor %}      
   </body>  
 </html>
   
