@@ -1,5 +1,5 @@
 name:
-  husband: Nnamdi Idika
+  husband: Chibuzor Nwafor
   wife: Adaku
 feedback: >
   This is my feedback to you.
@@ -15,4 +15,10 @@ bikes:
   - title: mountain bikes
   - title: road bikes
   - title: hybrid bikes
+salesteams:
+- title: Regions
+  subfolderitems:
+    - title: Nigeria
+    - title: Kenya
+    - title: South Africa
   
