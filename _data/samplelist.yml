@@ -44,4 +44,12 @@ about:
   - One
   - Two
   - Three
-  
+numbercolours:
+  - zero:
+  properties: yellow
+    - one:
+  properties: red
+    - two:
+  properties: blue
+    - three:
+  properties: green
