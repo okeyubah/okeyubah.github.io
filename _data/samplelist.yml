@@ -6,10 +6,10 @@ feedback: >
   Even if I include line breaks here,
   all of the line breaks will be removed when the value is inserted.
 block: |
-  This pipe does something a little different.
-  It preserves the breaks.
-  This is really helpful for code samples,
-  since you can format the  code samples with
+  This pipe does something a little different.\n
+  It preserves the breaks.\n
+  This is really helpful for code samples,\n
+  since you can format the  code samples with\n
   the appropriate line breaks.
 bikes:
   - title: mountain bikes
