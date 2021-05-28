@@ -39,3 +39,9 @@ toc:
       - page: Widget 3
 something: &hello Greetings earthling!
 myref: *hello
+about:
+  - Zero
+  - One
+  - Two
+  - Three
+  
