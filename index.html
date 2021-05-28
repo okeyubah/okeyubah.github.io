@@ -34,6 +34,13 @@
     {{ site.data.samplelist.myref }}<br />
     {{ site.data.samplelist.about[2] }}<br />
     {{ site.data.samplelist.numbercolours[2].properties }}
+    <ul>
+      {% for sec in site.data.samplelist.mypages %}
+      {% if sec.audience == "writers" %}
+      <li>{{sec.url}}</li>
+      {% endif %}
+      {% endfor %}
+    </ul>
   </body>  
 </html>
   
