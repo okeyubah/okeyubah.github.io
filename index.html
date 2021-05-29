@@ -42,7 +42,7 @@
       {% endfor %}
     </ul>
     <ul>{% for sec in site.data.samplelist.mypages %}
-      {% if sec.audience == "writers" and sec.product "gizmo" %}
+      {% if sec.audience == "writers" and sec.product == "gizmo" %}
       <li>{{sec.url}}</li>{% endif %}{% endfor %}
     </ul>
   </body>  
