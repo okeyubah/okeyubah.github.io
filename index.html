@@ -12,8 +12,10 @@ my_number: 5
   <body>
     <nav>
       {% for item in site.data.navigation %}
-  <a href="{% item.link %}" {% if page.url == item.link %}style="color: red;" {% endif %}>
-  </a>  
+  <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+    {{ item.name }}
+  </a>
+  {% endfor %}
 </nav>
 <h1>{{ "Start learning Java today!" }}</h1>       
   </body>  
