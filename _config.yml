@@ -7,25 +7,14 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
     values:
       layout: "default"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"      
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"      
-    values:
-      layout: "default"
+      
