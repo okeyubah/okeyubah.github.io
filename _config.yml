@@ -2,6 +2,9 @@ theme: jekyll-theme-cayman
 title: Welcome to Okey's homepage
 description: Where teenagers start early ... to learn Java
 
+collections:
+  authors:
+
 defaults:
   -
     scope:
