@@ -4,6 +4,7 @@ description: Where teenagers start early ... to learn Java
 
 collections:
   authors:
+    output: true
 
 defaults:
   -
