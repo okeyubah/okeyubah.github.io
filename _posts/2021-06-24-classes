@@ -1,7 +1,0 @@
----
-layout: post
-author: okey
----
-When you start writing Java code, the first thing you should do is to define a class.
-Thereafter, you can then create objects that belong to your new class. The idea is to use 
-the newly created objects to carry out necessary tasks.
