@@ -30,3 +30,11 @@ Herein lies the difference between a data type that is primitive, and a data typ
 the age of a teacher is of type int, a primitive data type; "tagbo", used above to refer to a 
 Teacher object is a data type, but not a priimitive data type. It is a reference to a Teacher 
 object.
+
+Please note that a reference to a Teacher object is barely a tip of the iceberg because Java has 
+already defined many, many classes that we can use in our code. A major example of such classes is 
+the String class, as demonstrated in the following usage:
+
+String sule = new String("Sule Maikirga");
+
+System.out.println(sule);    // prints Sule Maikirga
