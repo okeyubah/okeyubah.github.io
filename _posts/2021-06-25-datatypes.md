@@ -8,8 +8,8 @@ Don't let the word "primitive" bamboozle you here. It is just the way that textb
 to the kind of information that pops up in your head whenever the word "data" is mentioned:
 - the age of a student (int)
 - the amount of money that is left in your bank account (double)
-- the type of data that could be used to express Nigeria's population
-- the type of data that you could use to answer a question like "You live in Lagos?" (boolean)
+- the type of data that could be used to express Nigeria's population (long)
+- Your answer when asked, "You live in Lagos - true or false?" (boolean)
 
 Now that we know what primitive data looks like, we need to ask our what data would look 
 like when it is not primitive. To discover which data is not primitive, we need to look at classes 
