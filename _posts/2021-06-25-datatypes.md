@@ -9,6 +9,7 @@ to the kind of classification that pops up in your head whenever the word "data"
 - the age of a student (int)
 - the amount of money that is left in your bank account (double)
 - the type of data that could be used to express Nigeria's population (long)
+- the type of data that says type 'm' if you are male, 'f' if you are female (char)
 - Your answer when asked, "You live in Lagos - true or false?" (boolean)
 
 Now that we know what primitive data looks like, we need to ask ourselves what data would look 
