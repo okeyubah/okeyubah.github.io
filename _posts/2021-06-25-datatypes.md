@@ -5,7 +5,7 @@ author: okey
 Page 29 - Primitive Data Types
 
 Don't let the word "primitive" bamboozle you here. It is just the way that textbooks refer 
-to the kind of information that pops up in your head whenever the word "data" is mentioned:
+to the kind of classification that pops up in your head whenever the word "data" is mentioned:
 - the age of a student (int)
 - the amount of money that is left in your bank account (double)
 - the type of data that could be used to express Nigeria's population (long)
