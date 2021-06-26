@@ -26,6 +26,7 @@ What is not so obvious, however is that Teacher is now a new kind of data, and "
 us the means to refer to this particular Teacher object. We say that "tagbo" is a reference 
 to a Teacher object.
 
-Herein lies the difference between data that is primitive like the age of a teacher, and a 
-reference to a Teacher object. A teacher's age is primitive data. A reference to a Teacher 
-object is definitely not primitive data.
+Herein lies the difference between a data type that is primitive, and a data type that is not primitive: 
+the age of a teacher is of type int, a primitive data type; "tagbo", used above to refer to a 
+Teacher object is a data type, but not a priimitive data type. It is a reference to a Teacher 
+object.
