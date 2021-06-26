@@ -38,3 +38,6 @@ the String class, as demonstrated in the following usage:
 String sule = new String("Sule Maikirga");
 
 System.out.println(sule);    // prints Sule Maikirga
+
+Now, if you ask us, "Is sule a primitive data type?" we will say "No!"
+And if you ask, "What data type is sule?" we will say "A reference to a String object."
