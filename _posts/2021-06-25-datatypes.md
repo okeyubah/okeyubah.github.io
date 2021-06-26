@@ -11,8 +11,8 @@ to the kind of classification that pops up in your head whenever the word "data"
 - the type of data that could be used to express Nigeria's population (long)
 - Your answer when asked, "You live in Lagos - true or false?" (boolean)
 
-Now that we know what primitive data looks like, we need to ask our what data would look 
-like when it is not primitive. To discover which data is not primitive, we need to look at classes 
+Now that we know what primitive data looks like, we need to ask ourselves what data would look 
+like if it is not primitive. To discover which data is not primitive, we need to look at classes 
 and objects.
 
 When we define a class in Java, we do so in the knowledge that we can always create an object 
@@ -26,9 +26,9 @@ What is not so obvious, however is that Teacher is now a new kind of data, and "
 us the means to refer to this particular Teacher object. We say that "tagbo" is a reference 
 to a Teacher object.
 
-Herein lies the difference between a data type that is primitive, and a data type that is not primitive: 
+Herein lies the difference between a data type that is primitive, and one that is not: 
 the age of a teacher is of type int, a primitive data type; "tagbo", used above to refer to a 
-Teacher object is a data type, but not a priimitive data type. It is a reference to a Teacher 
+Teacher object is a data type, but not a primitive data type. It is a reference to a Teacher 
 object.
 
 Please note that a reference to a Teacher object is barely a tip of the iceberg because Java has 
@@ -40,4 +40,4 @@ String sule = new String("Sule Maikirga");
 System.out.println(sule);    // prints Sule Maikirga
 
 Now, if you ask us, "Is sule a primitive data type?" we will say "No!"
-And if you ask, "What data type is sule?" we will say "A reference to a String object."
+And if you ask us, "What type of data is sule?" we will say "A reference to a String object."
