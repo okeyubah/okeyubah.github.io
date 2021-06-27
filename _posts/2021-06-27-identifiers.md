@@ -1,5 +1,5 @@
 ---
-layout: authors
+layout: post
 author: okey
 ---
 In order to understand the meaning of identifiers in Java, you should take a step
