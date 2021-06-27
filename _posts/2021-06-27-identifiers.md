@@ -13,6 +13,6 @@ with for all the classes, members, objects, etc in your Java programs.
 
 A few ground rules apply here, and you will do well to become familiar with them. To
 start with, Java is case-sensitive. What this means is that, if you make the mistake of 
-writing "Eba" in your source code instead of "eba", your program will experience grave
-difficulties. As far as the compiler is concerned, "Eba" and "eba" have absolutely nothing 
-in common.
+writing "Eba" in your source code instead of "eba", or vice versa, your program will 
+experience grave difficulties. As far as the compiler is concerned, "Eba" and "eba" 
+have absolutely nothing in common.
