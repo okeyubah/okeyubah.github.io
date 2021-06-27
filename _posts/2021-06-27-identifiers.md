@@ -8,8 +8,8 @@ To carry out this function, you will need to think up names for all the actors i
 your little screenplay.
 
 As a programmer you are similarly required to invent names for classes, objects, other
-placeholders for data in your programs. Identifiers are he names that your fecond 
-imagination must conjur up to populate your Java programs.
+placeholders for data in your programs. Identifiers are the names that you come up
+with for all the classes, members, objects, etc in your Java programs.
 
 A few ground rules apply here, and you will do well to become familiar with them. To
 start with, Java is case-sensitive. What this means is that, if you make the mistake of 
