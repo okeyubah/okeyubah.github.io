@@ -20,12 +20,12 @@ have absolutly nothing in common.
 The next thing to remember is that some identifiers have already been taken up by the Java 
 programming language. For example, the word "public" has already been taken up by Java, and 
 you are not allowed to use it as an identifier in your program. It is rather like telling 
-the folks in Central Bank that you want to register a new bank called "Zenith Bank". They 
-would probably all bark in unison, "Sorry Sir, but that name has already been taken!"
+the folks in the Central Bank of Nigeria that you want to register a new bank called "Zenith Bank". 
+They would all probably bark at you in unison, "Sorry Sir, but that name has already been taken!"
 
 Which names have already been taken by Java? The list is a long one, and includes words like 
-java, false, double, long, byte and true. Also included in this list are float, boolean, return, 
-class and final. You will either have to learn them all, one by one, or wait for the compiler 
-to reject each identifier before adding it to your list of "banned" or "forbidden" words.
+java, false, double, long, byte and true. Also included in this list are other words like float, 
+boolean, return, class and final. You will either have to learn them all, one by one, or wait for the compiler 
+to reject each identifier one by one, as you fill out your list of "banned" or "forbidden" words.
 
 
