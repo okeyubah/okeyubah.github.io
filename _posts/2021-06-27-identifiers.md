@@ -1,3 +1,7 @@
+---
+layout: authors
+author: okey
+---
 In order to understand the meaning of identifiers in Java, you should take a step
 backwards, and imagine that you are required to write a little drama for Nollywood.
 To carry out this function, you will need to think up names for all the actors in
