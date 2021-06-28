@@ -15,22 +15,26 @@ kind of arithmetic we started to learn the moment we stepped into a primary scho
 
 The arithmetic operators shown above are 1) the plus sign as addition operator, 2)
 the asterisk sign as multiplication operator, 3) the hyphen as subtraction operator, 
-and 4) the forward slash as division operator.
+and 4) the forward slash as division operator. 
 
-But wait a minute, one operator is missing, as any Java programmer will tell you. It has 
-to do with the remainder, after a division operation. It is called the modulus operator, 
-as shown below:
+9 divided by 3 above will give you a predictable result: 3. But 7 divided by 4
+will surprise you: 1. It turns out that in 7/4, Java will only tell you how many times
+4 goes into 7: once. At the end of this division operation, the remainder (3) is 
+simply discarded.
 
-7 % 3 
+Java has a different operator that tells you what this remainder is. It is called the 
+modulus (or modulo) operator, as shown below:
 
-The above operation is not trying to find out how many times 3 goes into 7. Rather, the 
-modulus operation above is concerned with the remainder after you try to divide 7 by 3.
-The answer is 1, since 7 divided by 3 leaves us with 1 as remainder. Remember that the only
+7 % 4 
+
+The above operation does not seek to determine how many times 4 goes into 7. Rather, it is 
+concerned with determining what value remains, if any, after you try to divide 7 by 4.
+The answer is 3, since 7 divided by 4 leaves 3 as remainder. Remember that the only
 question we want answered here is "What is the remainder after the division operation?" Try 
-the same operation, this time using 6 instead of 7, as shown below:
+the same operation, this time using 8 instead of 7, as shown below:
 
-6 % 3 
+8 % 4 
 
-What is the result of this operation?
+What is the result of this latest modulo operation?
 
 
