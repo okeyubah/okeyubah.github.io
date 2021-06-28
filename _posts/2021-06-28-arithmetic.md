@@ -9,5 +9,6 @@ It is just the usual "2 + 2 = 4", and other similar familiar computations. This 
 kind of arithmetic we started to learn the moment we stepped into a primary school, or 
 even earlier:
 
-> 2 + 5 = 7<br>
+- 2 + 5 = 7<br>
+- 2 * 3 = 6
 
