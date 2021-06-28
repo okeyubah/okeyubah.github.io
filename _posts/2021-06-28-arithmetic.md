@@ -4,9 +4,10 @@ author: okey
 ---
 Page 57 - Arithmetic Operators
 
-Arithmetic operators are probably the easiest thing to understand for newcomers to Java.
-It is just the usual "2 + 2 = 4", and other similar familiar computations. This is the 
-kind of arithmetic we started to learn the moment we stepped into a primary school:
+Arithmetic operators are probably a relatively easy topic for newcomers to Java.
+This is because this topic pertains to the usual "2 + 2 = 4", and other similar 
+familiar computations. This kind of arithmetic have always been with us, starting 
+from the moment we stepped into a primary school:
 
 1. ==== 2 + 5
 2. ==== 2 * 3
@@ -36,5 +37,7 @@ the same operation, this time using 8 instead of 7, as shown below:
 8 % 4 
 
 What is the result of this latest modulo operation?
+
+
 
 
