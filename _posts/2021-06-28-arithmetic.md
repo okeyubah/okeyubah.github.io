@@ -14,6 +14,6 @@ kind of arithmetic we started to learn the moment we stepped into a primary scho
 4. --- 9 / 3 = 3
 
 The arithmetic operators shown above are 1) the plus sign as addition operator, 2)
-the asterisk sign as multiplication operator, 3) the hyphen sign as subtraction operator, 
+the asterisk sign as multiplication operator, 3) the hyphen as subtraction operator, 
 4) the forward slash as division operator.
 
