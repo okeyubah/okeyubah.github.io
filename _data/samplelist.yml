@@ -75,7 +75,8 @@ mypages:
   - section5: Section 5
     audience: writers
     product: acme
-    url: microsoft.com    
+    url: microsoft.com
+    
 docs_list_title: Nkwo Documentation
 docs:   
 
