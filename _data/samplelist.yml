@@ -33,6 +33,8 @@ toc:
       - page: Piece 2
       - page: Piece 3
   - title: Group 3
+  
+  -
     subdirobjs:
       - page: Widget 1
       - page: Widget 2
@@ -74,3 +76,14 @@ mypages:
     audience: writers
     product: acme
     url: microsoft.com    
+docs_list_title: Nkwo Documentation
+docs:   
+
+- title: Introduction
+  url: introduction.html
+
+- title: Configuration
+  url: configuration.html
+  
+ - title: Deployment
+   url: deployment.html
