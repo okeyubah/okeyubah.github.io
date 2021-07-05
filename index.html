@@ -23,6 +23,14 @@ title: Home
       interested teachers and pupils.</p>
     <p>To start learning Java, click the <strong>Staff</strong> link at the top of this page
     Then select a writer to read their posts</p>
+      <p>
+        <h2>{{ site.data.throw.docs_list_title }}</h2>
+    <ul>
+      {% for item in site.data.throw.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}      
+    </ul>
+    </p>
   </body>  
 </html>
   
