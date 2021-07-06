@@ -2,4 +2,25 @@
 layout: default
 title: Sidebar
 ---
-This the sidebar
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+      <p>
+        <h2>{{ site.data.throw.docs_list_title }}</h2>
+    <ul>
+      {% for item in site.data.throw.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}      
+    </ul>
+    </p>
+  </body>  
+</html>
+
+
+
+
