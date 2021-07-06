@@ -5,6 +5,9 @@ description: Where teenagers start early ... to learn Java
 collections:
   authors:
     output: true
+    
+sidebars:
+- home_sidebar
 
 defaults:
   - scope:
