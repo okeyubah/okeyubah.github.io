@@ -1,4 +1,13 @@
----
-title: Homepage
-description: Sidebar for home and 404 page
----
+
+title: earlyJay 1.x
+url: index.html
+children:
+
+- title: 'Authors'
+  url: author.html
+  output: 'web, pdf'
+  children:
+  
+  - title: 'Posts'
+    url: post.html
+    output: 'web, pdf'
