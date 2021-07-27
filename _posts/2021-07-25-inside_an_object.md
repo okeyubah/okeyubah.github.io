@@ -41,6 +41,8 @@ uche.setAge(14);
 Here, we are invoking setAge(), a method of the Student class. We are calling this 
 method on uche, an object reference. The setAge() method takes one argument. The type 
 of this argument is int. The compiler will not accept your code if you fail to provide 
-this argument or if you provide an argument of the wrong type. The compiler will accept 
-our code because we provided one argument, as required. Also, the argument we provided 
-(14) happens to be the type of argument that is required. 
+this argument or if you provide an argument of the wrong type. Also, the compiler will
+reject your work if you provide the wrong number of arguments. Fortunately, the compiler 
+will not reject our code here because we have provided one argument, as required. 
+Furthermore, the argument that we provided (14) happens to be just the type of argument 
+(int) that is required. 
