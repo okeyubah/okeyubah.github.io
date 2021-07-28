@@ -6,8 +6,14 @@ author: okey
 How to define a method Page 81
 A Java method has a number of component parts, as demonstrated in our definition of the Student class:
 **Name:** Every method requires a name, like getAge.
-**Return type:** Every method must either must either return a value, or state clearly that it does not return any. 
-Confused? Let's take that again. When you define a method, you need to tell the compiler whether 
+----------------------------------------------------
+**Return type:** Every method must either must either return a value, 
+--------------------------------------------------------------------
+or state clearly that it does not return any value.
+
+Confused? Let's take that line again. 
+
+When you define a method, you need to tell the compiler whether 
 your method returns any value. If your method does not return a value, then your are lucky: Your 
 problems at this level can be used by using the word void, like this:
 
