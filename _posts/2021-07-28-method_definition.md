@@ -2,8 +2,9 @@
 layout: post
 author: okey
 ---
+ 
+Page 81 - How to define a method
 
-How to define a method Page 81
 A Java method has a number of component parts, as demonstrated in our definition of the Student class:
 - Name: Every method requires a name, like getAge.
 - Return type: Every method must either must either return a value, 
