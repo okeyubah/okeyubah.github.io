@@ -10,7 +10,9 @@ title: Okey's Homepage
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    {% include navigation.html %}    
+    {% include navigation.html %}
+    <div class="c"><p>{% assign var = false %}
+      {% if var != true %}This statement is valid{% endif %}</p></div>    
     <div class="c"><p>{{ site.time | date_to_long_string: "ordinal" }}</p></div>
 <h1>{{ "Join other teenagers. Start learning Java here!" }}</h1>
     <p>The purpose of this website is to teach Nigerian children Java, starting from SS1 
