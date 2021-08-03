@@ -4,6 +4,5 @@ title: Contact us
 sidebar: home_sidebar
 ---
 # Contact page
-You can reach the owner of this blog on:
-
-+234803 400 0665 Email: kinderbytesng@gmail.com
+Email address: kinderbytesng@gmail.com
+Telephone: +234 803 400 0665
