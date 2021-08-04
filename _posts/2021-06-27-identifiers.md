@@ -1,6 +1,7 @@
 ---
 layout: post
 author: okey
+title: Java Identifiers
 ---
 In order to understand the meaning of identifiers in Java, you should imagine for 
 a second that you have suddenly been asked to write a little drama for Nollywood.
