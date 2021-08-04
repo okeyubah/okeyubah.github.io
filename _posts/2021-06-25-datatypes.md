@@ -1,8 +1,8 @@
 ---
 layout: author
 author: okey
+Primitive Data Types
 ---
-Page 29 - Primitive Data Types
 
 Don't let the word "primitive" bamboozle you here. It is just the way that textbooks refer 
 to the kind of classification that pops up in your head whenever the word "data" is mentioned:
