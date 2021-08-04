@@ -1,7 +1,7 @@
 ---
 layout: author
 author: okey
-Primitive Data Types
+title: "Primitive Data Types"
 ---
 
 Don't let the word "primitive" bamboozle you here. It is just the way that textbooks refer 
