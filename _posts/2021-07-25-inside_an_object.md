@@ -1,9 +1,8 @@
 ---
 layout: post
 author: okey
+title: "Inside a Java object"
 ---
-Page 67 - Methods of the String class
-
 First, a look at the two methods of the Student class:
 
 ```
