@@ -1,6 +1,7 @@
 ---
 layout: post
 author: okey
+title: "How to define a method"
 ---
  
 Page 81 - How to define a method
