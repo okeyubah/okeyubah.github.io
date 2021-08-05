@@ -20,3 +20,5 @@ defaults:
     values:
       layout: "default"
       
+plugins:
+  - jekyll-coffeescript
