@@ -21,4 +21,7 @@ defaults:
       layout: "default"
       
 plugins:
-  - jekyll-coffeescript
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag  
+  - jekyll-coffeescript  
