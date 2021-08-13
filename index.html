@@ -23,6 +23,17 @@ layout: default
     <p>To get started, click the <strong>Staff</strong> link below, 
       then select the writer whose posts you wish to read</p>
     {% include navigation.html %}        
+ <ul>
+    {% for org_hash member in site.data.orgs %}
+     {% assign org = org_hash[1] %}
+    <li>
+      <a href="https://github.com/{{ org.username }}">
+        {{ org.name }}
+      </a>
+    ({{ org.members | size }} members)
+   </li>
+   {% endfor %}
+    </ul>
 <!--
     <ul>
     {% for member in site.data.members %}
