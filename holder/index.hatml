@@ -45,5 +45,31 @@
       {% if sec.audience == "writers" and sec.product == "gizmo" %}
       <li>{{sec.url}}</li>{% endif %}{% endfor %}
     </ul>
+        
+ <ul>
+    {% for org_hash in site.data.orgs %}
+     {% assign org = org_hash[1] %}
+    <li>
+      <a href="https://github.com/{{ org.username }}">
+        {{ org.name }}
+      </a>
+    ({{ org.members | size }} members)
+   </li>
+   {% endfor %}
+    </ul>
+<!--
+    <ul>
+    {% for member in site.data.members %}
+    <li>
+      <a href="https://github.com/{{ member.github }}">
+        {{ member.name }}
+      </a>
+   </li>
+   {% endfor %}
+    </ul>
+    <div class="c"><p>{{ site.time | date_to_long_string: "ordinal" }}</p></div>
+    &copy;2021 Lagos, All Rights Reserved.
+-->
+
   </body>  
 </html>
