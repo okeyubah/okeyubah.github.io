@@ -23,7 +23,9 @@ layout: default
     <p>To get started, click the <strong>Staff</strong> link below, 
       then select the writer whose posts you wish to read</p>
     {% if user %}
-    Hello {{ user.name }}!{% endif %}
+    Hello {{ user.name }}! {% else %}
+    No user!
+    {% endif %}
     {% include navigation.html %}     
   </body>  
 </html>
