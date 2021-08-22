@@ -1,12 +1,8 @@
-dave:
-  name: David Smith
+- name: David Smith
   email: dsmith@gmail.com
-okey:
-  name: Okechukwu Ubah
+- name: Okechukwu Ubah
   email: okechukwuubah@hotmail.co.uk
-irene:
-  name: Irene Ubah
+- name: Irene Ubah
   email: irene.ubah2006@yahoo.co.uk
-amaka:
-  name: Amaka Okafor
+- name: Amaka Okafor
   email: amakaubah@hotmail.com
