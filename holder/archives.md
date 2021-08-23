@@ -7,3 +7,5 @@
     {% if user %}
       Hello {{ user.name }}!
     {% endif %}
+    
+    "/my/fancy/url" | append: ".html"
