@@ -10,3 +10,8 @@
     
     {{ "/my/fancy/url" | append: ".html" }}
     {{"adam!" | capitalize | prepend: "Hello" }}
+
+ {% for product in site.data.products %}{% if product.title == "Awesome Shoes" %}
+      Those shoes are awesome.
+    {% endif %}
+    {% endfor %}
