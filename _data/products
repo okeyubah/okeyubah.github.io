@@ -1,0 +1,15 @@
+- name: Ladies' Shoes
+  title: Awesome Shoes
+  location: London
+  
+- name: Solar panels
+  title: Cheap energy
+  location: Abuja
+  
+- name: Car hire
+  title: convenience redefined
+  location: Lagos
+  
+- name: Obi's Bookstore
+  title: Reading makes careers
+  location: Lagos
