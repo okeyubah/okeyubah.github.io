@@ -8,4 +8,5 @@
       Hello {{ user.name }}!
     {% endif %}
     
-    "/my/fancy/url" | append: ".html"
+    {{ "/my/fancy/url" | append: ".html" }}
+    {{"adam!" | capitalize | prepend: "Hello" }}
