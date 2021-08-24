@@ -20,4 +20,10 @@
   {% if product.type == "Shoes" or product.type == "Shirt" %}
     This is a shirt or a pair of shoes. Name: {{ product.name }}
   {% endif %}
+{% endfor %}   
+
+ {% for product in site.data.products %}
+  {% if product.name contains "Systems" %}
+    Product name contains System. Name: {{ product.name }}
+  {% endif %}
 {% endfor %}    
