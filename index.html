@@ -22,10 +22,13 @@ layout: default
       interested teachers and pupils.</p>
     <p>To get started, click the <strong>Staff</strong> link below, 
      then select the writer whose posts you wish to read</p>
-    {% assign str = "" %}
-    {% unless str == empty %}
-      We are working on it
-    {% endunless %}
+    {% assign name = "ikenna" %}
+    {% if name == "uju" %}
+      Hello uju
+    {% elsif name == "ikenna" %}
+      Hello ikenna
+    {% else %}
+    {% endif %}
   </body>  
 </html>
   
