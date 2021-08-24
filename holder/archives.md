@@ -40,7 +40,7 @@
     {{ foo }}
     {{ bar }}
     
- {% assign users = "Chidi, Nwafor, Tunde, Balarabe" | split: ", " %}
+ {% assign users = "Chidi, Nwafor, Tunde, Balarabe, Etim" | split: ", " %}
     {% for user in users %}
       {{ user }}
     {% endfor %}
