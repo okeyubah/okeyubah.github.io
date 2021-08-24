@@ -22,7 +22,10 @@ layout: default
       interested teachers and pupils.</p>
     <p>To get started, click the <strong>Staff</strong> link below, 
      then select the writer whose posts you wish to read</p>
-   
+    {% assign users = "Chidi, Nwafor, Tunde, Balarabe, Etim" | split: ", " %}
+    {% for user in users %}
+      {{ user }}
+    {% endfor %}
   </body>  
 </html>
   
