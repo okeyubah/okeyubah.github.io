@@ -23,8 +23,8 @@ layout: default
     <p>To get started, click the <strong>Staff</strong> link below, 
      then select the writer whose posts you wish to read</p>
     {% for product in site.data.products %}
-  {% if product.name contains shoes or product.name contains Uju%}
-    Product name contains System or product name contains Uju. Name: {{ product.name }}
+  {% if product.name contains System %}
+    Product name contains System. Name: {{ product.name }}
   {% endif %}
 {% endfor %}    
   </body>  
