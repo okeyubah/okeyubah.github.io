@@ -1,6 +1,6 @@
 - name: Ada Fashions
   title: Awesome Shoes
-  type: Ladies' Shoes
+  type: Shoes
   location: London
   
 - name: Frank Systems
@@ -10,7 +10,7 @@
   
 - name: Chike Clothing
   title: Convenience redefined
-  type: Shirts
+  type: Shirt
   location: Lagos
   
 - name: Uju Bookshops
