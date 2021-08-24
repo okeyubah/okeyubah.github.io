@@ -22,6 +22,10 @@ layout: default
       interested teachers and pupils.</p>
     <p>To get started, click the <strong>Staff</strong> link below, 
      then select the writer whose posts you wish to read</p>
+    {% unless pages == empty %}
+      <h1>{{ pages.frontpage.title}}</h1>
+      <div>{{ pages.frontpage.content}}</div>    
+    {% endunless %}
     
   </body>  
 </html>
