@@ -26,4 +26,11 @@
   {% if product.name contains "Systems" %}
     Product name contains System. Name: {{ product.name }}
   {% endif %}
-{% endfor %}    
+{% endfor %} 
+
+{% assign my_string = "Hello World!" %}
+    {% assign my_int = 25 %}
+    {% assign my_float = 23.756 %}
+    {{ my_string }}
+    {{ my_int }}
+    {{ my_float }}
