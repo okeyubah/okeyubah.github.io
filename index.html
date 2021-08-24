@@ -22,7 +22,11 @@ layout: default
       interested teachers and pupils.</p>
     <p>To get started, click the <strong>Staff</strong> link below, 
      then select the writer whose posts you wish to read</p>
-   
+   {% for product in site.data.products %}
+  {% if product.type == "Shoes" or product.type == "Shirt" %}
+    This is a shirt or a pair of shoes. Name: {{ product.name }}
+  {% endif %}
+{% endfor %}    
   </body>  
 </html>
   
