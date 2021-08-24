@@ -34,3 +34,9 @@
     {{ my_string }}
     {{ my_int }}
     {{ my_float }}
+    
+    {% assign foo = true %}
+    {% assign bar = false %}
+    {{ foo }}
+    {{ bar }}
+    
