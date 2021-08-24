@@ -50,3 +50,11 @@
     {{ users[-1] }}
     {{ users[-2] }}   
     
+ {% assign name = "ikenna" %}
+    {% if name == "uju" %}
+      Hello uju
+    {% elsif name == "ikenna" %}
+      Hello ikenna
+    {% else %}
+      Hello Stranger
+    {% endif %}
