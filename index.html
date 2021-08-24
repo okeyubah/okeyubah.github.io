@@ -25,7 +25,7 @@ layout: default
     {% assign users = "Yinka, Chika, Kunle, Okere" | split: ", "%}
     {% unless users == empty %}
       <h3>{{ users[-1]}}</h3> </br>
-      <div>{{ users[1] }}    
+      {{ users[1] }}    
     {% endunless %}
   </body>  
 </html>
