@@ -1,15 +1,19 @@
-- name: Ladies' Shoes
+- name: Ada Fashions
   title: Awesome Shoes
+  Ladies' Shoes
   location: London
   
-- name: Solar Panels
+- name: Frank Systems
   title: Cheap energy
+  type: Solar Panels
   location: Abuja
   
-- name: Car hire
+- name: Chike Logistics
   title: Convenience redefined
+  type: Car Hire
   location: Lagos
   
-- name: Books
+- name: Uju Bookshops
   title: Reading takes you higher
+  type: Books
   location: Lagos
