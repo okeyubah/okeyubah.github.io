@@ -45,3 +45,8 @@
       {{ user }}
     {% endfor %}
     
+    {{ users[0] }}
+    {{ users[1] }}
+    {{ users[-1] }}
+    {{ users[-2] }}   
+    
