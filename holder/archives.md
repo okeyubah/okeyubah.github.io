@@ -68,3 +68,11 @@
 {% else %}
   This is neither a cake, nor a cookie
 {% endcase %}
+
+{% for i in (1..5) %}
+      {% if i == 4 %}
+        {% break %}
+      {% else %}
+        {{ i }}
+      {% endif %}
+      {% endfor %}
