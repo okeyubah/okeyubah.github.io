@@ -22,12 +22,6 @@ layout: default
       interested teachers and pupils.</p>
     <p>To get started, click the <strong>Staff</strong> link below, 
      then select the writer whose posts you wish to read</p>
-     {% for product in site.data.products %}
-    <p>Name: {{ product.name }} Title: {{ product.title}}</p>
-    {% if forloop.last == true %}
-    This is the last iteration in the forloop
-    {% endif %}
-{% endfor %}   
      </body>  
 </html>
   
