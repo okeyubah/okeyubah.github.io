@@ -84,3 +84,8 @@
         {{ i }}
       {% endif %}
       {% endfor %}
+
+{% capture my_variable %}
+    I am the value of my_variable
+    {% endcapture %}
+    <p>{{ my_variable }}</p>
