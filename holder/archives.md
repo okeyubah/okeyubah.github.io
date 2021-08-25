@@ -89,7 +89,10 @@
     I am the value of my_variable
     {% endcapture %}
     <p>{{ my_variable }}</p>
-    
+
  {% for product in site.data.products %}
-   {{ product.name }}{{ product.type }}
+    <p>Name: {{ product.name }} Title: {{ product.title}}</p>
+    {% if forloop.last == true %}
+    This is the last iteration in the forloop
+    {% endif %}
 {% endfor %}   
