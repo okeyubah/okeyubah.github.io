@@ -99,3 +99,12 @@
 
 {% assign my_var = 'the value' %}
 {{ my_var }}
+
+{% assign cheeses = "cheddar, swiss, gouda, havarti, string" | split: ',' %}
+<ul>
+{% for cheese in cheeses %}
+      <li>
+        I like {{cheese }}
+      </li>
+      {% endfor %}
+</ul>
