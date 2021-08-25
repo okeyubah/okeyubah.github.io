@@ -58,3 +58,13 @@
     {% else %}
       Hello Stranger
     {% endif %}
+
+{% assign handle = "cake" %}
+{% case handle %}
+{% when "cake" %}
+  This is a cake
+{% when "cookie", "biscuit" %}
+  This is a cookie
+{% else %}
+  This is neither a cake, nor a cookie
+{% endcase %}
