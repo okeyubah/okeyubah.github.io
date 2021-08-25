@@ -91,5 +91,5 @@
     <p>{{ my_variable }}</p>
     
  {% for product in site.data.products %}
-   {% product.name %}{% product.type %}
+   {{ product.name }}{{ product.type }}
 {% endfor %}   
