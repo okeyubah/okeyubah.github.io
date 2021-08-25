@@ -108,3 +108,9 @@
       </li>
       {% endfor %}
 </ul>
+
+{% capture products_list %}
+{% for product in site.data.products %}
+{{ product.name }} | {{ product.title }} | {{product.location }}
+{% if forloop.last == false %}::{% endif %}{% endfor %}{% endcapture %}
+{% assign products_array = products_list | split: '::' %}
