@@ -96,3 +96,6 @@
     This is the last iteration in the forloop
     {% endif %}
 {% endfor %}   
+
+{% assign my_var = 'the value' %}
+{{ my_var }}
