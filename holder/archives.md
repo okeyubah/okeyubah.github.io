@@ -114,3 +114,14 @@
 {{ product.name }} | {{ product.title }} | {{product.location }}
 {% if forloop.last == false %}::{% endif %}{% endfor %}{% endcapture %}
 {% assign products_array = products_list | split: '::' %}
+
+{% capture products_list %}
+{% for product in site.data.products %}
+{{ product.name }} | {{ product.title }} | {{product.location }}
+{% if forloop.last == false %}::{% endif %}{% endfor %}{% endcapture %}
+{% assign products_array = products_list | split: '::' %}
+    {% for product in products_array %}
+      {% assign product_vals = product | split: '|' %}
+      {{ product_vals[0] }}
+      {{ product_vals[1] }}    
+    {% endfor %}
