@@ -25,7 +25,8 @@ layout: default
     {% capture person %}
     name: John Doe, age: 20
     {% endcapture %}
-    {{ person.name }}
+    {% assign person = person | split: ', ' %}
+    {{ person.first }}
      </body>  
 </html>
   
