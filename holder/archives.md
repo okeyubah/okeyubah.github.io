@@ -125,3 +125,9 @@
       {{ product_vals[0] }}
       {{ product_vals[1] }}    
     {% endfor %}
+    
+ {% capture person %}
+    name: John Doe, age: 20
+    {% endcapture %}
+    {% assign person = person | split: ', ' %}
+    {{ person.first }}
