@@ -26,6 +26,9 @@ layout: default
     name: John Doe, age: 20
     {% endcapture %}
     {% assign person = person | split: ', ' %}
+    {% for item in person %}
+      {{item}}
+    {% endfor%}
     {{ person.first }}
      </body>  
 </html>
