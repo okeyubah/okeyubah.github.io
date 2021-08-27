@@ -131,3 +131,8 @@
     {% endcapture %}
     {% assign person = person | split: ', ' %}
     {{ person.first }}
+    
+ {% assign arrayOne = 'a,b,c' | split: ',' %}
+   {% assign arrayTwo = 'd,e,f' | split: ',' %}   
+   {% assign foo = arrayOne | concat: arrayTwo %}
+     {{ foo[4]}}
