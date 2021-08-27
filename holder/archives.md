@@ -138,3 +138,5 @@
    {% for item in foo %}
      {{ item }} 
     {% endfor %}
+    
+    {{"March 14 2016" | time: "%b %d, %y"}}
