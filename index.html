@@ -25,9 +25,7 @@ layout: default
     {% assign arrayOne = 'a,b,c' | split: ',' %}
    {% assign arrayTwo = 'd,e,f' | split: ',' %}   
    {% assign foo = arrayOne | concat: arrayTwo %}
-    {% for i in foo %}
-     {{ foo[i]}}
-    {% endfor %}
+     {{ foo[0]}}
      </body>  
 </html>
   
