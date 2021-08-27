@@ -141,4 +141,6 @@
     
     {{"March 14 2016" | time: "%b %d, %y"}}
     
+      This page was last updated on {{ "now" | date: "%d-%m-%Y %H:%M" }}.
+    
      Number of pages on this website: {{ site.pages.size }}
