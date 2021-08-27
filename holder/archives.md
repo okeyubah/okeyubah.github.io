@@ -140,3 +140,5 @@
     {% endfor %}
     
     {{"March 14 2016" | time: "%b %d, %y"}}
+    
+     Number of pages on this website: {{ site.pages.size }}
