@@ -1,6 +1,9 @@
 ---
+layout: default
 title: Topics
 ---
+<h1>Topics</h1>
+
 
 <!DOCTYPE html>
 <html>
@@ -9,6 +12,14 @@ title: Topics
     <title>Topics</title>
   </head>
   <body>
-    <h1>{{ "Hello World!" | downcase }}</h1>
+    <ul>
+  {% for topic in site.topics %}
+    <li>
+      <h2><a href="{{ topic.url }}">{{ topic.title }}</a></h2>
+      <h3>{{ topic.level }}</h3>      
+      <p>{{ topic.content | markdownify }}</p>
+    </li>  
+   {% endfor %}
+</ul>
   </body>
 </html>
