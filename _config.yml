@@ -5,6 +5,11 @@ collections:
   authors:
     output: true
     
+collections:
+  topics:
+    output: true
+
+
 sidebars:
 - home_sidebar
 
