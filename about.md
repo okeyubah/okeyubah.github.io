@@ -5,3 +5,4 @@ sidebar: home_sidebar
 ---
 # About page
 This page tells you a little about me
+{% include navigation.html %}
