@@ -1,6 +1,19 @@
 name:
   husband: Chibuzor Nwafor
   wife: Adaku
+  
+topics_title: Notes
+scribbles:
+
+- title: Compiler
+  url: compiler.html
+
+- title: Classes
+  url: classes.html
+  
+- title: Arithmetic
+  url: arithmetic.html
+  
 feedback: >
   This is my feedback to you.
   Even if I include line breaks here,
