@@ -5,13 +5,13 @@ name:
 topics_title: Notes
 scribbles:
 
-- title: Compiler
+- title: The compiler
   url: compiler.html
 
-- title: Classes
+- title: Java classes
   url: classes.html
   
-- title: Arithmetic
+- title: Arithmetic operators
   url: arithmetic.html
   
 feedback: >
