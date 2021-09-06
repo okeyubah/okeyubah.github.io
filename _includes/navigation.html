@@ -1,7 +1,14 @@
 <nav>
-  {% for item in site.data.navigation %}
-  <a href="{{ item.link }}" {% if page.url == item.link %}style=color: red";{% endif %}>
-    {{ item.name }}
-  </a>
- {% endfor %}
+  <a href="/" {% if page.url == "/" %}style="color: red"; {% endif %}
+     Home
+  <a href="/about" {% if page.url == "/about" %}style="color: red"; {% endif %}
+     About
+  <a href="/blog" {% if page.url == "/blog" %}style="color: red"; {% endif %}
+     Blog
+  <a href="/contact" {% if page.url == "/contact" %}style="color: red"; {% endif %}
+     Contact
+  <a href="/staff" {% if page.url == "/staff" %}style="color: red"; {% endif %}
+     Staff
+  <a href="/topics" {% if page.url == "/topics" %}style="color: red"; {% endif %}
+     Topics
 </nav>
