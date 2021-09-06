@@ -144,3 +144,20 @@
       This page was last updated on {{ "now" | date: "%d-%m-%Y %H:%M" }}.
     
      Number of pages on this website: {{ site.pages.size }}
+     
+     ---
+layout: default
+title: Topics
+---
+<h1>Topics</h1>
+    <ul>
+  {% for topic in site.topics %}
+    <li>
+      <h2><a href="{{ topic.url }}">{{ topic.title }}</a></h2>
+      <h3>{{ topic.level }} Level</h3>      
+      <p>{{ topic.content | markdownify }}</p>
+    </li>  
+   {% endfor %}
+</ul>
+{% include navigation.html %}
+
