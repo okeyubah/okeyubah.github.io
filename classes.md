@@ -1,5 +1,5 @@
 ---
-Java classes
+title: Java classes
 ---
 
 Chapter 7, Page 43
