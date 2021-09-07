@@ -7,12 +7,18 @@ scribbles:
 
 - title: The compiler
   url: compiler.html
-
+  chapter: 2
+  page: 10
+  
 - title: Java classes
   url: classes.html
+  chapter: 7
+  page: 43
   
 - title: Arithmetic operators
   url: arithmetic.html
+  chapter: 9
+  page: 57
   
 feedback: >
   This is my feedback to you.
