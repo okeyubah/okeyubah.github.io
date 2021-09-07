@@ -5,7 +5,8 @@ title: Topics
 <h2>{{ site.data.samplelist.topics_title }}</h2>
 <ul>
 {% for item in site.data.samplelist.scribbles %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  <li><a href="{{ item.url }}">{{ item.title }}</br>
+    Chapter: {{ item.chapter }}, Page: {{ item.page }}</a></li>
 {% endfor %}
 </ul>
 
