@@ -1,6 +1,7 @@
 ---
 Java classes
 ---
+
 Chapter 7, Page 43
 
 When you start writing Java code, the first thing you need to do is define a class.
