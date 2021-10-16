@@ -27,8 +27,8 @@ layout: default
      then select the posts that were written by this author. You can also click the <strong>Topics</strong> link below, 
      to select any topic from the book.</p>
     {% assign foo = true %}
-    {% unless pages == empty %}
-    <h1>{{ pages.frontpage.title }}</h1>
+    {% unless foo == false %}
+    <h1>{{ page.date | date_to_string }}</h1>
     {% endunless %}
     {% include navigation.html %} 
      </body>  
