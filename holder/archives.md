@@ -161,3 +161,7 @@ title: Topics
 </ul>
 {% include navigation.html %}
 
+{% assign foo = true %}
+    {% unless foo == false %}
+    <h1>{{ page.layout }}</h1>
+    {% endunless %}
