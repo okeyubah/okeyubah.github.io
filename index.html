@@ -28,7 +28,7 @@ layout: default
      to select any topic from the book.</p>
     {% assign foo = true %}
     {% unless foo == false %}
-    <h1>{{ page.date | date_to_string }}</h1>
+    <h1>{{ page.layout }}</h1>
     {% endunless %}
     {% include navigation.html %} 
      </body>  
