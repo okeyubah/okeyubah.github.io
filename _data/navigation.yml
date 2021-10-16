@@ -9,6 +9,4 @@
 - name: Staff
   link: /staff.html
 - name: Topics
-  link: /topics.html
-- name: Board
-  link: /board.html  
+  link: /topics.html 
