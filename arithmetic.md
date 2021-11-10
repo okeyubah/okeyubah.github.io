@@ -16,9 +16,9 @@ c)      8 - 3
 
 d)      9 / 3 
 
-The arithmetic operators shown above are 1) the plus sign as addition operator, 2)
-the asterisk sign as multiplication operator, 3) the hyphen as subtraction operator, 
-and 4) the forward slash as division operator. 
+The arithmetic operators shown above are a) the plus sign as addition operator, b)
+the asterisk sign as multiplication operator, c) the hyphen as subtraction operator, 
+and d) the forward slash as division operator. 
 
 9 divided by 3 above will give you a predictable result: 3. But 7 divided by 4
 will surprise you: 1. It turns out that in 7/4, Java will only tell you how many times
