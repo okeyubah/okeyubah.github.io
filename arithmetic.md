@@ -8,10 +8,10 @@ This is because this topic pertains to the usual "2 + 2 = 4", and other similar
 familiar computations. This kind of arithmetic have always been with us, starting 
 from the moment we stepped into a primary school:
 
-1. ==== 2 + 5
-2. ==== 2 * 3
-3. ==== 8 - 3 
-4. ==== 9 / 3 
+a)      2 + 5
+b)      2 * 3
+c)      8 - 3 
+d)      9 / 3 
 
 The arithmetic operators shown above are 1) the plus sign as addition operator, 2)
 the asterisk sign as multiplication operator, 3) the hyphen as subtraction operator, 
