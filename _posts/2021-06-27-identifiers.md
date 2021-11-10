@@ -27,6 +27,6 @@ the football administrators in England that you want to register a new football 
 Which names have already been taken by Java? The list is a long one, and includes words like 
 java, false, double, long, byte and true. Also included in this list are other words like float, 
 boolean, return, class and final. You will either have to learn them all, one by one, or wait for the compiler 
-to reject each identifier one by one, as you fill out your list of "banned" or "forbidden" words.
+to reject each identifier one by one, as you compile your list of "banned" or "forbidden" words.
 
 
