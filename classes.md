@@ -1,5 +1,7 @@
 ---
 title: Java classes
+chapter: 7
+pageno: 43
 ---
 
 Chapter 7, Page 43
