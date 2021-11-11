@@ -1,5 +1,7 @@
 ---
 title: Arithmetic operators
+chapter: 9
+pageno: 57
 ---
 Chapter 9, Page 57
 
