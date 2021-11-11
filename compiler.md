@@ -1,5 +1,7 @@
 ---
 title: The Compiler
+chapter: 2
+pageno: 10
 ---
 Chapter 2, Page 10
 
