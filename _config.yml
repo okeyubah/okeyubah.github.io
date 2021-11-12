@@ -8,6 +8,10 @@ collections:
 collections:
   topics:
     output: true
+    
+collections:
+  chapters:
+    output: true
 
 
 sidebars:
