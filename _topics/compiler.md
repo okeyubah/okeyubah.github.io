@@ -1,6 +1,8 @@
 ---
+layout: topic
 title: The Compiler
-level: Beginner
+chapter: 2
+pageno: 10
 ---
 The task of explaining the contents of the book, "A Peek into Java for Nigerian 
 Teenagers", starts with the compiler on Page 10. The compiler is a very important 
