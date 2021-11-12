@@ -1,5 +1,6 @@
 ---
 layout: topic
+title: Java classes
 chapter: 7
 pageno: 43
 ---
