@@ -2,6 +2,6 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<h2>Chapter {{page.chapter}}, Page {{ page.pageno }}</h2>
+<p>Chapter {{page.chapter}} - {{ page.date | date_to_string }}</p>
+
 {{ content }}
-<p>Latest update: {{ page.date | date_to_string }}</p>
