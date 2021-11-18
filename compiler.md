@@ -1,10 +1,9 @@
 ---
+layout: topic
 title: The Compiler
-chapter: 2
+chapter: Two
 pageno: 10
 ---
-Chapter 2, Page 10
-
 The task of explaining the contents of the book, "A Peek into Java for Nigerian 
 Teenagers", starts with the compiler on Page 10. The compiler is a very important 
 part of Java programming, and before you proceed any further, you should make sure 
