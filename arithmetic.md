@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Arithmetic operators
+title: Arithmetic operations
 chapter: nine
 pageno: 57
 ---
