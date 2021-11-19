@@ -2,11 +2,12 @@
 layout: default
 title: Topics
 ---
-<h2>{{ site.data.samplelist.topics_title }}</h2>
+<h2>{{ site.data.samplelist.topics_title }}
 <ul>
 {% for item in site.data.samplelist.scribbles %}
-  <li><a href="{{ item.url }}">{{ item.title }}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></h2>
+  {{ topic.content }}
+  </li>
 {% endfor %}
 </ul>
 <p>Click a topic</p>
-
