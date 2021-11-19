@@ -1,9 +1,8 @@
 ---
 title: Arithmetic operators
-chapter: 9
+chapter: nine
 pageno: 57
 ---
-Chapter 9, Page 57
 
 Arithmetic operators are probably a relatively easy topic for newcomers to Java.
 This is because this topic pertains to the usual "2 + 2 = 4", and other similar 
