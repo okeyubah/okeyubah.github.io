@@ -1,14 +1,15 @@
 ---
 layout: default
-title: All Topics
+title: Topics
 ---
-<h1>Available Topics</h1>
-
-<ul>{% for topic in site.topics %}
+<h2>{{ site.data.samplelist.topics_title }}
+<ul>
+  {% for item in site.data.samplelist.scribbles %}
   <li>
-    <h2><a href="{{ topic.url }}">{{ topic.title }}</a></h2>
+    <a href="{{ item.url }}">{{ item.title }}</a></h2>
     
-     {{ topic.content }}
-  </li>{% endfor %}</ul>
-{% include navigation.html %}
-
+     {{ item.content }}
+  </li>
+{% endfor %}
+</ul>
+<p>Click a topic</p>
