@@ -6,14 +6,10 @@ scribbles:
   
 - title: Java classes
   url: classes.html
-  chapter: 7
-  page: 43
   
 - title: Arithmetic operators
   url: arithmetic.html
-  chapter: 9
-  page: 57
-  
+ 
 feedback: >
   This is my feedback to you.
   Even if I include line breaks here,
