@@ -3,8 +3,6 @@ scribbles:
 
 - title: The compiler
   url: compiler.html
-  chapter: 2
-  page: 10
   
 - title: Java classes
   url: classes.html
