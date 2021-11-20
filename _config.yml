@@ -6,13 +6,8 @@ collections:
     output: true
     
 collections:
-  topics:
-    output: true
-    
-collections:
   chapters:
     output: true
-
 
 sidebars:
 - home_sidebar
