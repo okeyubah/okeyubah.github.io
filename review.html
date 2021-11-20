@@ -1,0 +1,14 @@
+---
+layout: default
+title: Review
+---
+<h1>Review</h1>
+<ul>
+  {% for chapter in site.chapters %}
+  <li>
+    <h2>{{ chapter.name }}</h2>
+    <h3>{{ chapter.highlight }}</h3>
+    <h2>{{ chapter.content | markdownify }}</h2>    
+  </li>
+  {% endfor %}  
+</ul>
