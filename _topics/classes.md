@@ -1,7 +1,7 @@
 ---
 layout: topic
 title: Java classes
-chapter: Seven
+chapter: seven
 pageno: 43
 ---
 
