@@ -1,7 +1,7 @@
 ---
 layout: topic
 title: Arithmetic Operators
-chapter: Nine
+chapter: nine
 pageno: 57
 ---
 
