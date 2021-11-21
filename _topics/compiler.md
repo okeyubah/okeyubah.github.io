@@ -1,7 +1,7 @@
 ---
 layout: topic
 title: The Compiler
-chapter: Two
+chapter: two
 pageno: 10
 ---
 The task of explaining the contents of the book, "A Peek into Java for Nigerian 
