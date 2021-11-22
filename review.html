@@ -6,7 +6,7 @@ title: Review
 <ul>
   {% for chapter in site.chapters %}
   <li>
-    <h2>{{ chapter.name }}</h2>
+    <h2><a href="chapter.url">{{ chapter.name }}</a></h2>
     <h3>{{ chapter.highlight }}</h3>
     <p>{{ chapter.content | markdownify }}</p>    
   </li>
