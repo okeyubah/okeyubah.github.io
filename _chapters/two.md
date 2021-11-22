@@ -1,5 +1,5 @@
 ---
-short_name: ch2
+short_name: two
 name: Chapter two
 highlight: compiler
 ---
