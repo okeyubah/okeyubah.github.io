@@ -1,5 +1,5 @@
 ---
-short_name: ch7
+short_name: seven
 name: Chapter seven
 highlight: Java classes
 ---
