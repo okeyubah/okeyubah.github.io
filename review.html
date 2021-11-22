@@ -8,7 +8,7 @@ title: Review
   <li>
     <h2>{{ chapter.name }}</h2>
     <h3>{{ chapter.highlight }}</h3>
-    <h2>{{ chapter.content | markdownify }}</h2>    
+    <p>{{ chapter.content | markdownify }}</p>    
   </li>
   {% endfor %}  
 </ul>
