@@ -3,4 +3,4 @@ short_name: nine
 name: Chapter nine
 highlight: Arithmetic operations
 ---
-Chapter seven focuses on the important role of classes in Java.
+Chapter nine focuses on the arithmetic operators.
