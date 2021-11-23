@@ -5,6 +5,7 @@ layout: default
 <h2>{{ page.highlight }}</h2>
 
 {{ content }}
+   
 <h2>Topics</h2>
 <ul>
    {% assign filtered_topics = site.topics | where: 'chapter', page.short_name %} 
