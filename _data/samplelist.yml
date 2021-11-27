@@ -1,13 +1,13 @@
 topics_title: Available topics
 scribbles:
 
-title: The compiler
+- title: The compiler
   url: compiler.html
   
-title: Java classes
+- title: Java classes
   url: classes.html
   
-title: Arithmetic operators
+- title: Arithmetic operators
   url: arithmetic.html
  
 feedback: >
