@@ -9,6 +9,18 @@ scribbles:
   
 - title: Arithmetic operators
   url: arithmetic.html
+  
+chapters_title: Available chapters
+notes:
+
+- title: Chapter two
+  url: two.html
+  
+- title: Chapter seven
+  url: seven.html
+  
+- title: Chapter nine
+  url: nine.html  
  
 feedback: >
   This is my feedback to you.
