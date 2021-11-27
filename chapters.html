@@ -1,0 +1,14 @@
+---
+layout: default
+title: Chapters
+sidebar: home_sidebar
+---
+<h2>{{site.data.samplelist.chapters_title}}</h2>
+<ul>
+  {% for item in site.data.samplelist.notes %}
+    <li>
+      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+      {{ item.content }}
+    </li>
+  {% endfor %}  
+</ul>
