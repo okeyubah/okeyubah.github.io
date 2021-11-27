@@ -3,13 +3,12 @@ layout: default
 title: Topics
 sidebar: home_sidebar
 ---
-<h1>Available Topics</h1>
-
+<h2>{{site.data.samplelist.topics_title}}</h2>
 <ul>
-  {% for topic in site.topics %}
+  {% for item in site.data.samplelist.scribbles %}
     <li>
-      <h2><a href="{{ topic.url }}">{{ topic.title }}</a></h2>
-      {{ topic.content | markdownify }}
+      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+      {{ item.content }}
     </li>
   {% endfor %}  
 </ul>
