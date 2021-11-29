@@ -33,7 +33,10 @@ layout: default
     </div>
     <ul>
       {% for item in site.authors %}
-      <li><h4> {{ item.name }}</h4></li>
+      <li>
+        <h4> <a href="item.url">{{ item.title }}</a></h4>
+        {{ item.date | date_to_string }}
+      </li>
       {% endfor%}
     </ul>
     <p>To get started, click the <strong>Staff</strong> link below, 
