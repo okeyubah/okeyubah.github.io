@@ -31,6 +31,13 @@ layout: default
         <li>will seek the help of teachers and parents to persuade pupils about the growing significance of Java.</li>        
       </ul>
     </div>
+    <ul>
+      {% for item in topics %}
+        <li>
+          <h4><a href="{{ item.url" }}>{{ itemtitle }}</a></h4>
+        </li>
+      {% endfor %}
+    </ul>
     <p>To get started, click the <strong>Staff</strong> link below, 
      then select the posts that were written by this author. You can also click the <strong>Topics</strong> link below, 
      to select any topic from the book.</p>
