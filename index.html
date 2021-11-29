@@ -32,7 +32,7 @@ layout: default
       </ul>
     </div>
     <ul>
-      {% for item in site.authors %}
+      {% for item in site.posts %}
       <li>
         <h4> <a href="item.url">{{ item.title }}</a></h4>
         {{ item.date | date_to_string }}
