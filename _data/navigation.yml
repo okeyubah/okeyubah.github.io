@@ -3,7 +3,9 @@
 - name: About
   link: /about.html  
 - name: Blog
-  link: /blog.html  
+  link: /blog.html
+- name: Board
+  link: /board.html  
 - name: Contact
   link: /contact.html        
 - name: Staff
