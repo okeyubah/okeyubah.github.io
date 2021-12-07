@@ -17,13 +17,13 @@ defaults:
       path: ""
       type: "authors"
     values:
-     layout: "author"
+      layout: "author"
 defaults:
- - scope:
+  - scope:
       path: ""
       type: "chapters"
-   values:
-     layout: "chapter"
+    values:
+      layout: "chapter"
   - scope:
       path: ""
       type: "posts"
