@@ -12,23 +12,23 @@ collections:
 sidebars:
 - home_sidebar
 
-#defaults:
- # - scope:
- #     path: ""
- #    type: "authors"
- #   values:
- #    layout: "author"
-#defaults:
-# - scope:
-#      path: ""
-#      type: "chapters"
-#   values:
-#      layout: "chapter"
-#  - scope:
-#      path: ""
-#      type: "posts"
-#    values:
-#      layout: "default"
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+     layout: "author"
+defaults:
+ - scope:
+      path: ""
+      type: "chapters"
+   values:
+     layout: "chapter"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
       
 plugins:
   - jekyll-feed
