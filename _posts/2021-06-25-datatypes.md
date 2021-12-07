@@ -1,5 +1,5 @@
 ---
-layout: author
+layout: post
 author: okey
 title: "Primitive Data Types"
 ---
