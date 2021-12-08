@@ -1,2 +1,13 @@
 ---
+layout: default
+title: Board
 ---
+<h1>Available Topics</h1>
+
+<ul>
+  {% for topic in site.topics %}
+    <li>
+      <h2><a href="{{ topic.url }}">{{ topic.title}}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
