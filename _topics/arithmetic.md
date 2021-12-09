@@ -7,7 +7,7 @@ pageno: 57
 
 Arithmetic operators are probably a relatively easy topic for newcomers to Java.
 This is because this topic pertains to the usual "2 + 2 = 4", and other similar 
-familiar computations. This kind of arithmetic have always been with us, starting 
+familiar computations. This type of arithmetic has always been with us, starting 
 from the moment we stepped into a primary school:
 
 a)      2 + 5  
