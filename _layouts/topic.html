@@ -6,7 +6,7 @@ layout: default
   {% assign chapter = site.chapters | where: 'short_name', page.chapter | first %}
   {% if chapter %}
       <p2>{{ chapter.name }}</p2>
-  <h5>In the book, this topic is covered on page {{ page.pageno }}.</h5>
+  <h5>For this topic, please turn to page {{ page.pageno }}.</h5>
   {% endif %}
 </p>
   
