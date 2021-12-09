@@ -5,7 +5,7 @@ layout: default
 <p>
   {% assign chapter = site.chapters | where: 'short_name', page.chapter | first %}
   {% if chapter %}
-    <a href="{{ chapter.url }}">{{ chapter.name }}, Page {{ chapter.pageno }}</a>
+    <a href="{{ chapter.url }}">{{ chapter.name }}, Page {{ page.pageno }}</a>
   {% endif %}
 </p>
   
