@@ -17,7 +17,7 @@ class Teacher {
       int age;
 }
 
-This new definition of the Teacher class contains a member called age. The type of this member is int. We know that this is the case because the word "age" is preceded by the word "int". Java is notoriously strict about the type of data you use in your programs. Hence the need to put the word int in front of age. That way, everyone can see that the piece of data called age is of a particular type: int. In case you are still wondering, an int is a kind of number, the kind of number that can hold a person's age.
+This new definition of the Teacher class contains a member called age. The type of this member is int. We know that this is the case because the word "age" is preceded by the word "int". Java is notoriously strict about the type of data you use in your programs, hence the need to put the word int in front of age. That way, everyone can see that the piece of data called age is of a particular type: int. In case you are still wondering, an int is a kind of number, the kind of number that can hold a person's age.
 
 Java has other types of data, like "String", which we could use to hold the teacher's name. Thus, if we wanted the teacher's age to be replaced by their name, then our definition of the Teacher class would look like this:
 
