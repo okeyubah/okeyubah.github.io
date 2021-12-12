@@ -10,6 +10,9 @@ scribbles:
 - title: Arithmetic operators
   url: arithmetic.html
   
+- title: Java objects
+  url: objects.html
+  
 chapters_title: Available chapters
 notes:
 
