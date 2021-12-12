@@ -50,14 +50,21 @@ public class Registrar {
   public static void main(String[] args) {
     Student uche = new Student();
     uche.setAge(15);
-    uche.getAge();    //15
+    int num = uche.getAge();    
+    System.out.println(num);    //15    
   }
   ```
 }
 
-There is a lot to unpack here, but we will be doing that in a future post. Suffice it 
-to say that we have defined a class named Student. Inside another class named Registrar, we have created 
-an object of the Student class. To access this newly created object, we use an object reference called uche. 
-Using uche, we are able to access the two methods defined in the Student class. By using these 
+There is a lot to unpack here. Suffice it to say that we have defined a class named Student. 
+Inside another class named Registrar, we have created an object of the Student class. 
+To access this newly created object, we use an object reference called uche. Using uche, 
+we are able to access the two methods defined in the Student class. By using these 
 two methods, setAge() and getAge(), we are able to access age, the only instance variable defined in
-the Student class.
+the Student class. Once we get the student's age, we store it in a variable called num. The type of num
+is int, which is why the word num is preceded by int. We use System.out.println to print out the 
+value of num. System.out.println will print any argument that we include within the parentheses like this:
+
+```
+System.out.println("Ajegunle");    //Ajegunle
+```
