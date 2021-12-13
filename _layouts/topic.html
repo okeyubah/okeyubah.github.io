@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <p>
-  {% assign chapter = site.chapters | where: 'short_name', page.chapter | first %}
+  {% assign chapter = site.chapters | where: 'short_name', page.chapter | first | sort: pageno %}
   {% if chapter %}
       <p2>{{ chapter.name }}</p2>
   <h5>To view this topic in the book, turn to page {{ page.pageno }}.</h5>
