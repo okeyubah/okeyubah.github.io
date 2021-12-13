@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: topic
 chapter: 2
 pageno: 14
 title: "More about Java objects"
