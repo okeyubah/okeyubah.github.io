@@ -1,6 +1,6 @@
 ---
 layout: topic
-chapter: 2
+chapter: two
 pageno: 14
 title: "More about Java objects"
 ---
