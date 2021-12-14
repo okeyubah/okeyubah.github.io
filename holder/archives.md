@@ -165,3 +165,8 @@ title: Topics
     {% unless foo == false %}
     <h1>{{ page.layout }}</h1>
     {% endunless %}
+    
+    {% assign avail_pages = site.pages | map: "title" %}
+    {% for title in avail_pages %}
+    - {{ title }}
+    {% endfor %}
