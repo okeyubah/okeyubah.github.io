@@ -31,9 +31,9 @@ layout: default
         <li>will seek the help of teachers and parents to persuade pupils about the growing significance of Java.</li>        
       </ul>
     </div>
-    {% assign avail_chapters = site.topics | map: "chapter" %}
-    {% for chapt in avail_chapters %}
-    - {{ chapt }}
+    {% assign avail_pages = site.pages | map: "title" %}
+    {% for title in avail_pages %}
+    - {{ title }}
     {% endfor %}
     <p>To get started, click the <strong>Blog</strong> link below, 
      then select the post you wish to read. You can also click the <strong>Topics</strong> link below, 
