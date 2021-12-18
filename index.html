@@ -36,9 +36,10 @@ layout: default
      to select any topic from the book.</p>
     <p>Last updated: {{ "now" | date: "%d-%m-%Y %H:%M" }}</p>
     <ul>
+    <h3>Members</h3>
     {% for member in site.data.members %}
       <li>
-    {{ member.name }} - {{ member.github }}
+    Name: {{ member.name }} github: {{ member.github }}
       </li>
       {% endfor %}
     </ul>
